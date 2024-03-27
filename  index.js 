@@ -1,0 +1,16 @@
+// Helper function to calculate the area of a circle
+function calculateArea(radius) {
+  return Math.PI * radius * radius;
+}
+
+// Helper function to calculate the circumference of a circle
+function calculateCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+
+// Example usage of helper functions
+const radius = 5;
+
+console.log("Radius:", radius);
+console.log("Area:", calculateArea(radius)); // Output: ~78.54 (since pi * 5^2 = 78.54)
+console.log("Circumference:", calculateCircumference(radius)); // Output: ~31.42 (since 2 * pi * 5 = 31.42)
